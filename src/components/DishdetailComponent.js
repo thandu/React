@@ -35,7 +35,7 @@ import { Card, CardImg, CardImgOverlay, CardText, CardBody, CardTitle } from 're
         );
     }
 
-    const DishdetailComponent = props => {
+    const DishDetail = props => {
         if (props.dish) {
             return (
                 <div className="container">
@@ -57,4 +57,4 @@ import { Card, CardImg, CardImgOverlay, CardText, CardBody, CardTitle } from 're
         }
     }
 
-export default DishdetailComponent;
+export default DishDetail;
